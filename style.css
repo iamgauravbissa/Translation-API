@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
-    --primary-color:#150941;
-    --secondry:#F80040;
+
+:root {
+    --primary-color: #150941;
+    --secondry: #F80040;
 }
-body{
+
+body {
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +13,7 @@ body{
     flex-direction: column;
 }
 
-.navigation{
+.navigation {
     position: relative;
     width: 100%;
     display: flex;
@@ -22,36 +24,41 @@ body{
     align-items: center;
     border-radius: 1rem;
     border-top: 2px solid black;
-    
+
 
 }
 
-.navigation ul{
+.navigation ul {
     list-style: none;
     margin: .5rem;
 }
-.navigation ul li{
+
+.navigation ul li {
     display: inline;
     padding: .5rem;
     color: black;
 
 }
-.navigation ul li a:hover{
+
+.navigation ul li a:hover {
     color: white;
     background-color: var(--primary-color);
     border: 10px solid var(--primary-color);
     border-radius: 2.5rem;
 }
-.link{
+
+.link {
     text-decoration: none;
     font-size: 2rem;
     color: black;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-evenly;
 }
-.header .left-header{
+
+.header .left-header {
     background-color: var(--primary-color);
     height: 100vh;
     color: white;
@@ -59,24 +66,25 @@ body{
     padding: 1rem;
     border-radius: 1rem;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
 }
 
-.header .right-header{
+.header .right-header {
     background-color: var(--secondry);
     display: flex;
     padding: 1rem;
     border-radius: 1rem;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
 }
-.container{
+
+.container {
     padding: 8rem;
 }
 
-.header-button{
+.header-button {
     background-color: black;
     padding: 1rem;
     border-radius: 4rem;
@@ -84,7 +92,37 @@ body{
     font-size: 1.2rem !important;
     cursor: pointer;
 }
-.header-button a{
+
+.header-button a {
     text-decoration: none;
     color: white;
+}
+.main-heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.content {
+    width: 70%;
+    height: 70vh;
+    margin: 1rem auto;
+    background-color: #F59E0B;
+    padding: .5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow:-17px 24px 34px 10px lightslategrey;
+
+}
+
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: ;
+    position: absolute;
+    /* background: white; */
+    min-width: 169px;
+}
+.dropdown-button{
+    display: block;
 }
