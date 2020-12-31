@@ -17,7 +17,7 @@
             <div>
                 <ul class="nav">
                     <li class="nav-pills"><a class="link" href="index.html">Home</a></li>
-                    <li class="nav-pills"><a class="link" href="">Tranlations</a></li>
+                    <li class="nav-pills"><a class="link" href="#translation">Tranlations</a></li>
                     <li class="nav-pills"><a class="link" href="">About Us</a></li>
                 </ul>
             </div>
@@ -30,7 +30,7 @@
                     ways to translate your words.
                 </h1>
                 <button class="header-button">
-                    See Options
+                 <a href="#translation">See Options</a>
                 </button>
             </div>
         </div>
@@ -48,22 +48,29 @@
         </div>
     </secton>
     <section id="translation" class="content">
-        <div class="content-heading">
-            <h1 class="main-heading">Let's Translate</h1>
-            <h1>Choose desired translation from dropdown</h1>
+        <h1 class="main-heading">
+            Let's Translate
+        </h1>
+        <div class="main-content">
+            <div class="radiogroup">
+            <h3>Choose a translation type</h3>
+            <input type="radio" name="translation" id="minion">
+            <label for="minion">Minion</label>
+            <input type="radio" name="translation" id="yoda">
+            <label for="minion">Yoda</label>
+            <input type="radio" name="translation" id="Pirate">
+            <label for="minion">Pirate</label>
         </div>
-        <div class="dropdown">
-            <span>Choose A translation Type</span>
-            <div class="dropdown-content">
-                <button class="dropdown-button">Minions</button>
-                <button class="dropdown-button">Yoda</button>
-                <button class="dropdown-button">Pirate</button>
-                <button class="dropdown-button">XYZ</button>
-            </div>
+        <div class="input">
+            <label for="text">Enter Your Text</label>
+            <input type="text" placeholder="Enter the text you want to translate" name="text" id="textarea">
+            <button id="translate" class="translate">Translate</button>
         </div>
-        <label for="textarea">Enter the text you want to translate.</label>
-        <input type="text" placeholder="enter your text" name="text" id="">
-        <textarea placeholder="Here you will get your translation" name="translation" id="" cols="30" rows="10"></textarea>
+        <div class="output">
+            <h3 class="translated">Here's your translated text</h3>
+            <textarea name="translated" id="translated" cols="50" rows="10"></textarea>
+        </div>
+    </div>
     </section>
 
 </body>

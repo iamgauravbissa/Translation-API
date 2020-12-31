@@ -103,26 +103,62 @@ body {
     padding: 2rem;
 }
 .content {
-    width: 70%;
-    height: 70vh;
-    margin: 1rem auto;
+    width: 80%;
+    height: 100vh;
+    margin:auto;
     background-color: #F59E0B;
     padding: .5rem;
     box-sizing: border-box;
     border-radius: 1rem;
     box-shadow:-17px 24px 34px 10px lightslategrey;
+}
+.main-heading{
+   color: var(--primary-color);
+   font-size: 40px;
+   letter-spacing: 1.5;
+   text-shadow:-4px 1px 5px lightslategrey;
+}
+.main-content{
+   width: 70%;
+   margin: auto;
 
 }
+.main-content h3{
+     font-size: 1.3rem;
 
-.dropdown{
-    position: relative;
 }
-.dropdown-content{
-    display: ;
-    position: absolute;
-    /* background: white; */
-    min-width: 169px;
-}
-.dropdown-button{
+input{
     display: block;
+    padding:1rem 1rem 1rem 0rem;
+    margin: .5rem .5rem.5rem 0rem;
+
+}
+
+.input
+{
+    padding: 1rem 1rem 1rem 0rem;
+}
+.input #textarea{
+    padding: 1.5rem;
+    font-size: 20px;
+    width: 60%;
+    height: 1vh;
+    border: 2px solid var(--primary-color);
+    border-radius: 2rem;
+}
+
+.input button{
+    padding: 1rem;
+    border-radius: 3rem;
+    color: rgb(255, 166, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+textarea{
+    font-size: 20px;
+    padding: 1rem;
+
+}
+label{
+    font-size: 16px;
 }
