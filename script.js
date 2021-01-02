@@ -3,22 +3,20 @@ window.alert("We dont store any data so you are free to translate any thing");
 var btntranslate = document.querySelector('#translate');
 var text = document.querySelector('#textarea');
 var dd = document.querySelector('#translated');
-var url="";
+var url = "";
 
 
 function geturltype() {
-    if(document.getElementById('minion').checked){
-       
-       console.log('minion working');
-        return url= "https://api.funtranslations.com/translate/minion.json"
-    }
-    else if(document.getElementById('yoda').checked){
+    if (document.getElementById('minion').checked) {
+
+        console.log('minion working');
+        return url = "https://api.funtranslations.com/translate/minion.json"
+    } else if (document.getElementById('yoda').checked) {
         console.log('yoda working')
         return url = "https://api.funtranslations.com/translate/yoda.json"
-    }
-    else if(document.getElementById('Pirate').checked){
+    } else if (document.getElementById('Pirate').checked) {
         console.log('pirate working')
-        return url= "https://api.funtranslations.com/translate/pirate.json"
+        return url = "https://api.funtranslations.com/translate/pirate.json"
     }
 }
 
@@ -33,7 +31,7 @@ function errorHandler(error) {
 }
 
 function clickhandler() {
-    
+
     var textinput = text.value;
     fetch(geturl(textinput))
         .then(response => response.json())

@@ -97,48 +97,54 @@ body {
     text-decoration: none;
     color: white;
 }
-.main-heading{
+
+.main-heading {
     font-size: 2rem;
     text-align: center;
     padding: 2rem;
 }
+
 .content {
     width: 80%;
     height: 100vh;
-    margin:auto;
+    margin: auto;
     background-color: #F59E0B;
     padding: .5rem;
     box-sizing: border-box;
     border-radius: 1rem;
-    box-shadow:-17px 24px 34px 10px lightslategrey;
+    box-shadow: -17px 24px 34px 10px lightslategrey;
 }
-.main-heading{
-   color: var(--primary-color);
-   font-size: 40px;
-   letter-spacing: 1.5;
-   text-shadow:-4px 1px 5px lightslategrey;
+
+.main-heading {
+    color: var(--primary-color);
+    font-size: 40px;
+    letter-spacing: 1.5;
+    text-shadow: -4px 1px 5px lightslategrey;
 }
-.main-content{
-   width: 70%;
-   margin: auto;
+
+.main-content {
+    width: 70%;
+    margin: auto;
 
 }
-.main-content h3{
-     font-size: 1.3rem;
+
+.main-content h3 {
+    font-size: 1.3rem;
 
 }
-input{
+
+input {
     display: block;
-    padding:1rem 1rem 1rem 0rem;
+    padding: 1rem 1rem 1rem 0rem;
     margin: .5rem .5rem.5rem 0rem;
 
 }
 
-.input
-{
+.input {
     padding: 1rem 1rem 1rem 0rem;
 }
-.input #textarea{
+
+.input #textarea {
     padding: 1.5rem;
     font-size: 20px;
     width: 60%;
@@ -147,18 +153,31 @@ input{
     border-radius: 2rem;
 }
 
-.input button{
+.input button {
     padding: 1rem;
     border-radius: 3rem;
     color: rgb(255, 166, 0);
     font-size: 25px;
     font-weight: bold;
 }
-textarea{
+
+textarea {
     font-size: 20px;
     padding: 1rem;
 
 }
-label{
+
+label {
     font-size: 16px;
+}
+
+footer {
+    color: white;
+    background: var(--primary-color);
+    text-align: center;
+    font-size: .7rem;
+}
+
+footer a {
+    font-size: 1.4rem !important;
 }

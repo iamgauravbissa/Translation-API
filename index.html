@@ -30,7 +30,7 @@
                     ways to translate your words.
                 </h1>
                 <button class="header-button">
-                 <a href="#translation">See Options</a>
+                    <a href="#translation">See Options</a>
                 </button>
             </div>
         </div>
@@ -53,26 +53,29 @@
         </h1>
         <div class="main-content">
             <div class="radiogroup">
-            <h3>Choose a translation type</h3>
-            <input type="radio" name="translation" id="minion">
-            <label for="minion">Minion</label>
-            <input type="radio" name="translation" id="yoda">
-            <label for="minion">Yoda</label>
-            <input type="radio" name="translation" id="Pirate">
-            <label for="minion">Pirate</label>
+                <h3>Choose a translation type</h3>
+                <input type="radio" name="translation" id="minion">
+                <label for="minion">Minion</label>
+                <input type="radio" name="translation" id="yoda">
+                <label for="minion">Yoda</label>
+                <input type="radio" name="translation" id="Pirate">
+                <label for="minion">Pirate</label>
+            </div>
+            <div class="input">
+                <label for="text">Enter Your Text</label>
+                <input type="text" placeholder="Enter the text you want to translate" name="text" id="textarea">
+                <button id="translate" class="translate">Translate</button>
+            </div>
+            <div class="output">
+                <h3 class="translated">Here's your translated text</h3>
+                <textarea name="translated" id="translated" cols="50" rows="10"></textarea>
+            </div>
         </div>
-        <div class="input">
-            <label for="text">Enter Your Text</label>
-            <input type="text" placeholder="Enter the text you want to translate" name="text" id="textarea">
-            <button id="translate" class="translate">Translate</button>
-        </div>
-        <div class="output">
-            <h3 class="translated">Here's your translated text</h3>
-            <textarea name="translated" id="translated" cols="50" rows="10"></textarea>
-        </div>
-    </div>
     </section>
-<script src="script.js"></script>
+    <footer>
+        <h2>made with ❤️ by <a class="link" href="https://gauravbissa.netlify.app/">Gaurav Bissa</a></h2>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
