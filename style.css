@@ -181,3 +181,13 @@ footer {
 footer a {
     font-size: 1.4rem !important;
 }
+
+.hover-image:hover{
+ 
+     background-image: url(imgages/minion.jpg);
+     display: block;
+     height: 250px;
+     width: 250px;
+     padding: .5rem;
+
+}
