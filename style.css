@@ -79,11 +79,13 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
+.container1{
+    width: 100vw;
+}
 
 .container {
     padding: 8rem;
-    widows: 100%;
-    margin: auto;
+    width: 100%;
 }
 
 .header-button {
