@@ -82,6 +82,8 @@ body {
 
 .container {
     padding: 8rem;
+    widows: 100%;
+    margin: auto;
 }
 
 .header-button {
