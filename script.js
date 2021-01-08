@@ -2,7 +2,7 @@ window.alert("We dont store any data so you are free to translate any thing");
 // var minionurl = "https://api.funtranslations.com/translate/minion.json";
 var btntranslate = document.querySelector('#translate');
 var text = document.querySelector('#textarea');
-var dd = document.querySelector('#translated');
+var dd = document.querySelector('#output');
 var url = "";
 
 
@@ -38,7 +38,7 @@ function clickhandler() {
         .then(json => {
 
             var translatedtext = json.contents.translated;
-            dd.value = translatedtext;
+            dd.innerHTML = translatedtext;
 
         })
         .catch(errorHandler)
